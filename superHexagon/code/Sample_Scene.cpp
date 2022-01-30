@@ -388,7 +388,7 @@ namespace hexagonGame
     {
         // Se lee el contenido del archivo:
 
-        auto xml_file = Asset::open ("texts.xml");
+        auto xml_file = Asset::open ("SampleSceneParams.xml");
 
         vector<byte> xml_bytes;
 

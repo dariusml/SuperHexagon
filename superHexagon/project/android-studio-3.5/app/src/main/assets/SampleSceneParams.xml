@@ -242,17 +242,4 @@
 		<color type = "mainColor"	> 0.9608,0.9608,0.9608 </color>
 
 	</colorSet>
-
-
-	<text id="?" category ="?">
-		<translation language = "pt-br">
-			cosa
-		</translation>
-		<translation language = "es-es">
-			Si, tio, hostia, tronco
-		</translation>
-		<translation language = "es-us">
-			yes, i'm gonna use my credit card and get int debt just to buy an AK-47
-		</translation>
-	</text>
 </scene>
