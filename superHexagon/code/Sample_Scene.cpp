@@ -48,6 +48,7 @@ namespace hexagonGame
         firstSectionClear = false;
 
         //variables necesarias iniciales para el beat visual en el que el personaje se hace mas grande y mas pequeño
+        resetingLevel = false;
         playerCurrentZoom = 1;
         beat = false; //Si está en proceso de agrandarse
 
