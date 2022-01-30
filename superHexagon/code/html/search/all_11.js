@@ -1,4 +1,0 @@
-var searchData=
-[
-  ['update_0',['update',['../classhexagon_game_1_1_intro___scene.html#a93799a2e6f1d57689720d728d71f8ed9',1,'hexagonGame::Intro_Scene::update()'],['../classhexagon_game_1_1_menu___scene.html#a090ea2ab58f0541cf564ff734967a112',1,'hexagonGame::Menu_Scene::update()'],['../classhexagon_game_1_1_obstacle.html#a69dba89856180c3b63dce72818bf2560',1,'hexagonGame::Obstacle::update()'],['../classhexagon_game_1_1_obstacle_pool.html#a2d81e5e6cd068ad815667d2f21b22b55',1,'hexagonGame::ObstaclePool::update()'],['../classhexagon_game_1_1_player.html#a366549f556e2fbe29fded52448920612',1,'hexagonGame::Player::update()'],['../classhexagon_game_1_1_polygon.html#a78b49a107a9f72fb3567c22d420d8abb',1,'hexagonGame::Polygon::update()'],['../classhexagon_game_1_1_sample___scene.html#a3269afc86105d7b32b4148e1c2f87b4c',1,'hexagonGame::Sample_Scene::update()']]]
-];
