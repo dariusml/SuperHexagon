@@ -1,0 +1,94 @@
+\hypertarget{classhexagon_game_1_1_sample___scene}{}\doxysection{hexagon\+Game\+::Sample\+\_\+\+Scene Class Reference}
+\label{classhexagon_game_1_1_sample___scene}\index{hexagonGame::Sample\_Scene@{hexagonGame::Sample\_Scene}}
+
+
+escena de juego  
+
+
+
+
+{\ttfamily \#include $<$Sample\+\_\+\+Scene.\+hpp$>$}
+
+Inheritance diagram for hexagon\+Game\+::Sample\+\_\+\+Scene\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classhexagon_game_1_1_sample___scene}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classhexagon_game_1_1_sample___scene_a9d7a3a66a227f4d35c19021ed7f5d7fb}{Sample\+\_\+\+Scene}} ()
+\item 
+basics\+::\+Size2u \mbox{\hyperlink{classhexagon_game_1_1_sample___scene_aa8b82eff630a75c41f80bd77c74f87f9}{get\+\_\+view\+\_\+size}} () override
+\item 
+bool \mbox{\hyperlink{classhexagon_game_1_1_sample___scene_a151377318872ab0777598fd6b0157ba3}{initialize}} () override
+\item 
+void \mbox{\hyperlink{classhexagon_game_1_1_sample___scene_acf95f1889e87655979298741ca9825a0}{suspend}} () override
+\item 
+void \mbox{\hyperlink{classhexagon_game_1_1_sample___scene_a35dc9b320b7c4f83b0efb6c83c949610}{resume}} () override
+\item 
+void \mbox{\hyperlink{classhexagon_game_1_1_sample___scene_a3269afc86105d7b32b4148e1c2f87b4c}{update}} (float) override
+\item 
+void \mbox{\hyperlink{classhexagon_game_1_1_sample___scene_af10ba28eab63511fe054fa66947d5f3a}{render}} (basics\+::\+Graphics\+\_\+\+Context\+::\+Accessor \&context) override
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+escena de juego 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classhexagon_game_1_1_sample___scene_a9d7a3a66a227f4d35c19021ed7f5d7fb}\label{classhexagon_game_1_1_sample___scene_a9d7a3a66a227f4d35c19021ed7f5d7fb}} 
+\index{hexagonGame::Sample\_Scene@{hexagonGame::Sample\_Scene}!Sample\_Scene@{Sample\_Scene}}
+\index{Sample\_Scene@{Sample\_Scene}!hexagonGame::Sample\_Scene@{hexagonGame::Sample\_Scene}}
+\doxysubsubsection{\texorpdfstring{Sample\_Scene()}{Sample\_Scene()}}
+{\footnotesize\ttfamily hexagon\+Game\+::\+Sample\+\_\+\+Scene\+::\+Sample\+\_\+\+Scene (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+default 1280 $\ast$ 720 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classhexagon_game_1_1_sample___scene_aa8b82eff630a75c41f80bd77c74f87f9}\label{classhexagon_game_1_1_sample___scene_aa8b82eff630a75c41f80bd77c74f87f9}} 
+\index{hexagonGame::Sample\_Scene@{hexagonGame::Sample\_Scene}!get\_view\_size@{get\_view\_size}}
+\index{get\_view\_size@{get\_view\_size}!hexagonGame::Sample\_Scene@{hexagonGame::Sample\_Scene}}
+\doxysubsubsection{\texorpdfstring{get\_view\_size()}{get\_view\_size()}}
+{\footnotesize\ttfamily basics\+::\+Size2u hexagon\+Game\+::\+Sample\+\_\+\+Scene\+::get\+\_\+view\+\_\+size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}}
+
+Este metodo lo llama Director para conocer la resolucion virtual con la que esta¡ trabajando la escena. \begin{DoxyReturn}{Returns}
+TamaÃ±o en coordenadas virtuales que esta usando la escena. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classhexagon_game_1_1_sample___scene_a151377318872ab0777598fd6b0157ba3}\label{classhexagon_game_1_1_sample___scene_a151377318872ab0777598fd6b0157ba3}} 
+\index{hexagonGame::Sample\_Scene@{hexagonGame::Sample\_Scene}!initialize@{initialize}}
+\index{initialize@{initialize}!hexagonGame::Sample\_Scene@{hexagonGame::Sample\_Scene}}
+\doxysubsubsection{\texorpdfstring{initialize()}{initialize()}}
+{\footnotesize\ttfamily bool hexagon\+Game\+::\+Sample\+\_\+\+Scene\+::initialize (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}}
+
+Aqui se inicializan los atributos que deben restablecerse cada vez que se inicia la escena. \mbox{\Hypertarget{classhexagon_game_1_1_sample___scene_af10ba28eab63511fe054fa66947d5f3a}\label{classhexagon_game_1_1_sample___scene_af10ba28eab63511fe054fa66947d5f3a}} 
+\index{hexagonGame::Sample\_Scene@{hexagonGame::Sample\_Scene}!render@{render}}
+\index{render@{render}!hexagonGame::Sample\_Scene@{hexagonGame::Sample\_Scene}}
+\doxysubsubsection{\texorpdfstring{render()}{render()}}
+{\footnotesize\ttfamily void hexagon\+Game\+::\+Sample\+\_\+\+Scene\+::render (\begin{DoxyParamCaption}\item[{basics\+::\+Graphics\+\_\+\+Context\+::\+Accessor \&}]{context }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}}
+
+Este metodo se invoca automaticamente una vez por fotograma para que la escena dibuje su contenido. \mbox{\Hypertarget{classhexagon_game_1_1_sample___scene_a35dc9b320b7c4f83b0efb6c83c949610}\label{classhexagon_game_1_1_sample___scene_a35dc9b320b7c4f83b0efb6c83c949610}} 
+\index{hexagonGame::Sample\_Scene@{hexagonGame::Sample\_Scene}!resume@{resume}}
+\index{resume@{resume}!hexagonGame::Sample\_Scene@{hexagonGame::Sample\_Scene}}
+\doxysubsubsection{\texorpdfstring{resume()}{resume()}}
+{\footnotesize\ttfamily void hexagon\+Game\+::\+Sample\+\_\+\+Scene\+::resume (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}}
+
+Este metodo lo invoca Director automaticamente cuando el juego pasa a primer plano. \mbox{\Hypertarget{classhexagon_game_1_1_sample___scene_acf95f1889e87655979298741ca9825a0}\label{classhexagon_game_1_1_sample___scene_acf95f1889e87655979298741ca9825a0}} 
+\index{hexagonGame::Sample\_Scene@{hexagonGame::Sample\_Scene}!suspend@{suspend}}
+\index{suspend@{suspend}!hexagonGame::Sample\_Scene@{hexagonGame::Sample\_Scene}}
+\doxysubsubsection{\texorpdfstring{suspend()}{suspend()}}
+{\footnotesize\ttfamily void hexagon\+Game\+::\+Sample\+\_\+\+Scene\+::suspend (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}}
+
+Este metodo lo invoca Director automaticamente cuando el juego pasa a segundo plano. \mbox{\Hypertarget{classhexagon_game_1_1_sample___scene_a3269afc86105d7b32b4148e1c2f87b4c}\label{classhexagon_game_1_1_sample___scene_a3269afc86105d7b32b4148e1c2f87b4c}} 
+\index{hexagonGame::Sample\_Scene@{hexagonGame::Sample\_Scene}!update@{update}}
+\index{update@{update}!hexagonGame::Sample\_Scene@{hexagonGame::Sample\_Scene}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void hexagon\+Game\+::\+Sample\+\_\+\+Scene\+::update (\begin{DoxyParamCaption}\item[{float}]{delta\+Time }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}}
+
+Este metodo se invoca automaticamente una vez por fotograma para que la escena actualize su estado. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_sample___scene_8hpp}{Sample\+\_\+\+Scene.\+hpp}}\item 
+\mbox{\hyperlink{_sample___scene_8cpp}{Sample\+\_\+\+Scene.\+cpp}}\end{DoxyCompactItemize}

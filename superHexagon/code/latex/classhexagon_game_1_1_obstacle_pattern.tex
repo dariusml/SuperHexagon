@@ -1,0 +1,121 @@
+\hypertarget{classhexagon_game_1_1_obstacle_pattern}{}\doxysection{hexagon\+Game\+::Obstacle\+Pattern Class Reference}
+\label{classhexagon_game_1_1_obstacle_pattern}\index{hexagonGame::ObstaclePattern@{hexagonGame::ObstaclePattern}}
+
+
+Guarda parametros de posibles patrones de obstaculos definidos por slices.  
+
+
+
+
+{\ttfamily \#include $<$Obstacle\+Patern.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+const float \& \mbox{\hyperlink{classhexagon_game_1_1_obstacle_pattern_a1795146a9c3fa41bc31a9a4dbad3687a}{get\+Slice\+Time}} (int slice\+Index) const
+\item 
+const int \& \mbox{\hyperlink{classhexagon_game_1_1_obstacle_pattern_a38eed7b94c185f29496ad7cc6d0f08be}{getobstacle\+Slot}} (int slice\+Index, int obstacle\+Index) const
+\item 
+const float \& \mbox{\hyperlink{classhexagon_game_1_1_obstacle_pattern_af7124692216f0d8c1c5179cb7e793053}{getobstacle\+Size}} (int slice\+Index, int obstacle\+Index) const
+\item 
+const int \& \mbox{\hyperlink{classhexagon_game_1_1_obstacle_pattern_a99b4a0e4b66ee8da201f6784dcaebdee}{getn\+Slices}} () const
+\item 
+const \mbox{\hyperlink{classhexagon_game_1_1_obstacle_slice}{Obstacle\+Slice}} \& \mbox{\hyperlink{classhexagon_game_1_1_obstacle_pattern_acbd7a461813367846a4f26450668840e}{get\+Slice}} (int slice\+Index) const
+\item 
+void \mbox{\hyperlink{classhexagon_game_1_1_obstacle_pattern_a500af4b784c2628450612a7f20c83eb8}{add\+Obstacle\+Slice}} (const \mbox{\hyperlink{classhexagon_game_1_1_obstacle_slice}{Obstacle\+Slice}} \&obstacle\+Slice)
+\begin{DoxyCompactList}\small\item\em añade datos de obstaculo a patron de obstaculos \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Guarda parametros de posibles patrones de obstaculos definidos por slices. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classhexagon_game_1_1_obstacle_pattern_a500af4b784c2628450612a7f20c83eb8}\label{classhexagon_game_1_1_obstacle_pattern_a500af4b784c2628450612a7f20c83eb8}} 
+\index{hexagonGame::ObstaclePattern@{hexagonGame::ObstaclePattern}!addObstacleSlice@{addObstacleSlice}}
+\index{addObstacleSlice@{addObstacleSlice}!hexagonGame::ObstaclePattern@{hexagonGame::ObstaclePattern}}
+\doxysubsubsection{\texorpdfstring{addObstacleSlice()}{addObstacleSlice()}}
+{\footnotesize\ttfamily void hexagon\+Game\+::\+Obstacle\+Pattern\+::add\+Obstacle\+Slice (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classhexagon_game_1_1_obstacle_slice}{Obstacle\+Slice}} \&}]{obstacle\+Slice }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+añade datos de obstaculo a patron de obstaculos 
+
+
+\begin{DoxyParams}{Parameters}
+{\em obstacle\+Slice} & datos del slice a añadir \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classhexagon_game_1_1_obstacle_pattern_a99b4a0e4b66ee8da201f6784dcaebdee}\label{classhexagon_game_1_1_obstacle_pattern_a99b4a0e4b66ee8da201f6784dcaebdee}} 
+\index{hexagonGame::ObstaclePattern@{hexagonGame::ObstaclePattern}!getnSlices@{getnSlices}}
+\index{getnSlices@{getnSlices}!hexagonGame::ObstaclePattern@{hexagonGame::ObstaclePattern}}
+\doxysubsubsection{\texorpdfstring{getnSlices()}{getnSlices()}}
+{\footnotesize\ttfamily const int \& hexagon\+Game\+::\+Obstacle\+Pattern\+::getn\+Slices (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\begin{DoxyReturn}{Returns}
+numero de slices 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classhexagon_game_1_1_obstacle_pattern_af7124692216f0d8c1c5179cb7e793053}\label{classhexagon_game_1_1_obstacle_pattern_af7124692216f0d8c1c5179cb7e793053}} 
+\index{hexagonGame::ObstaclePattern@{hexagonGame::ObstaclePattern}!getobstacleSize@{getobstacleSize}}
+\index{getobstacleSize@{getobstacleSize}!hexagonGame::ObstaclePattern@{hexagonGame::ObstaclePattern}}
+\doxysubsubsection{\texorpdfstring{getobstacleSize()}{getobstacleSize()}}
+{\footnotesize\ttfamily const float \& hexagon\+Game\+::\+Obstacle\+Pattern\+::getobstacle\+Size (\begin{DoxyParamCaption}\item[{int}]{slice\+Index,  }\item[{int}]{obstacle\+Index }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em slice\+Index} & index del slice \\
+\hline
+{\em obstacle\+Index} & index del obstaculo de dentro del slice \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+anchura del obstaculo pedido 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classhexagon_game_1_1_obstacle_pattern_a38eed7b94c185f29496ad7cc6d0f08be}\label{classhexagon_game_1_1_obstacle_pattern_a38eed7b94c185f29496ad7cc6d0f08be}} 
+\index{hexagonGame::ObstaclePattern@{hexagonGame::ObstaclePattern}!getobstacleSlot@{getobstacleSlot}}
+\index{getobstacleSlot@{getobstacleSlot}!hexagonGame::ObstaclePattern@{hexagonGame::ObstaclePattern}}
+\doxysubsubsection{\texorpdfstring{getobstacleSlot()}{getobstacleSlot()}}
+{\footnotesize\ttfamily const int \& hexagon\+Game\+::\+Obstacle\+Pattern\+::getobstacle\+Slot (\begin{DoxyParamCaption}\item[{int}]{slice\+Index,  }\item[{int}]{obstacle\+Index }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em slice\+Index} & index del slice \\
+\hline
+{\em obstacle\+Index} & index del obstaculo de dentro del slice \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+slot del obstaculo pedido 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classhexagon_game_1_1_obstacle_pattern_acbd7a461813367846a4f26450668840e}\label{classhexagon_game_1_1_obstacle_pattern_acbd7a461813367846a4f26450668840e}} 
+\index{hexagonGame::ObstaclePattern@{hexagonGame::ObstaclePattern}!getSlice@{getSlice}}
+\index{getSlice@{getSlice}!hexagonGame::ObstaclePattern@{hexagonGame::ObstaclePattern}}
+\doxysubsubsection{\texorpdfstring{getSlice()}{getSlice()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classhexagon_game_1_1_obstacle_slice}{Obstacle\+Slice}} \& hexagon\+Game\+::\+Obstacle\+Pattern\+::get\+Slice (\begin{DoxyParamCaption}\item[{int}]{slice\+Index }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em slice\+Index} & index del slice \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+slice pedido 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classhexagon_game_1_1_obstacle_pattern_a1795146a9c3fa41bc31a9a4dbad3687a}\label{classhexagon_game_1_1_obstacle_pattern_a1795146a9c3fa41bc31a9a4dbad3687a}} 
+\index{hexagonGame::ObstaclePattern@{hexagonGame::ObstaclePattern}!getSliceTime@{getSliceTime}}
+\index{getSliceTime@{getSliceTime}!hexagonGame::ObstaclePattern@{hexagonGame::ObstaclePattern}}
+\doxysubsubsection{\texorpdfstring{getSliceTime()}{getSliceTime()}}
+{\footnotesize\ttfamily const float \& hexagon\+Game\+::\+Obstacle\+Pattern\+::get\+Slice\+Time (\begin{DoxyParamCaption}\item[{int}]{slice\+Index }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em slice\+Index} & index del slice \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+tiempo de spawneo del slice 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_obstacle_patern_8h}{Obstacle\+Patern.\+h}}\end{DoxyCompactItemize}

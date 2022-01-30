@@ -1,0 +1,223 @@
+\hypertarget{classhexagon_game_1_1_player}{}\doxysection{hexagon\+Game\+::Player Class Reference}
+\label{classhexagon_game_1_1_player}\index{hexagonGame::Player@{hexagonGame::Player}}
+
+
+clase del jugador  
+
+
+
+
+{\ttfamily \#include $<$Player.\+h$>$}
+
+Inheritance diagram for hexagon\+Game\+::Player\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classhexagon_game_1_1_player}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classhexagon_game_1_1_player_a257a6519fe771a7b770ebfdeb2e66211}{Player}} (Point2f position, float size, float border\+Size, float speed)
+\item 
+void \mbox{\hyperlink{classhexagon_game_1_1_player_a366549f556e2fbe29fded52448920612}{update}} (float delta\+Time) override
+\item 
+void \mbox{\hyperlink{classhexagon_game_1_1_player_a1568bf13b7425c2d1465e30a19526680}{render}} (Canvas \&canvas) override
+\item 
+void \mbox{\hyperlink{classhexagon_game_1_1_player_a4ec69921879b1acdb3f2a581faccbd5f}{render}} (Canvas \&canvas, float zoom, Point2f pivot) override
+\item 
+void \mbox{\hyperlink{classhexagon_game_1_1_player_a845e4abeb37553fa173a070a877f5ddd}{set\+Inner\+Color}} (const float r, const float g, const float b)
+\item 
+void \mbox{\hyperlink{classhexagon_game_1_1_player_a17cd8eca02aeb8dacd59a9a9f119a3ab}{set\+Inner\+Color}} (\mbox{\hyperlink{structhexagon_game_1_1_color}{Color}} \mbox{\hyperlink{classhexagon_game_1_1_polygon_a25bf3bfc20ae936d7d93945917cb377b}{color}})
+\item 
+void \mbox{\hyperlink{classhexagon_game_1_1_player_a61bbc7140ff27c2f58c3d1675974f005}{set\+\_\+color}} (const float \&r, const float \&g, const float \&b) override
+\item 
+void \mbox{\hyperlink{classhexagon_game_1_1_player_a20d60343a050129477d6c0b70a56e271}{set\+\_\+color}} (\mbox{\hyperlink{structhexagon_game_1_1_color}{Color}} \mbox{\hyperlink{classhexagon_game_1_1_polygon_a25bf3bfc20ae936d7d93945917cb377b}{color}}) override
+\item 
+void \mbox{\hyperlink{classhexagon_game_1_1_player_ad1c118966c9709b4181afc394e674f0d}{set\+Arrow\+Position\+To\+Last\+Frame}} ()
+\item 
+const Point2f \& \mbox{\hyperlink{classhexagon_game_1_1_player_ac41324949b134391ef8642d04f9f7b64}{get\+Tip\+Of\+Arrow}} () const
+\item 
+void \mbox{\hyperlink{classhexagon_game_1_1_player_a8041890399526a79a59814e25e13693a}{rotate\+Around}} (const Point2f \&pivot, float angle) override
+\item 
+void \mbox{\hyperlink{classhexagon_game_1_1_player_a8f6b4213d0431518ab2233d8e55d6d1c}{move\+Player}} (const Point2f \&pivot, float angle)
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+clase del jugador 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classhexagon_game_1_1_player_a257a6519fe771a7b770ebfdeb2e66211}\label{classhexagon_game_1_1_player_a257a6519fe771a7b770ebfdeb2e66211}} 
+\index{hexagonGame::Player@{hexagonGame::Player}!Player@{Player}}
+\index{Player@{Player}!hexagonGame::Player@{hexagonGame::Player}}
+\doxysubsubsection{\texorpdfstring{Player()}{Player()}}
+{\footnotesize\ttfamily hexagon\+Game\+::\+Player\+::\+Player (\begin{DoxyParamCaption}\item[{Point2f}]{position,  }\item[{float}]{size,  }\item[{float}]{border\+Size,  }\item[{float}]{speed }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+constructor del jugador 
+\begin{DoxyParams}{Parameters}
+{\em position} & posicion del jugador \\
+\hline
+{\em size} & tamaño todal del jugador (border\+Size no suma) \\
+\hline
+{\em border\+Size} & grosor del borde del jugador \\
+\hline
+{\em speed} & velocidad de rotacion \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classhexagon_game_1_1_player_ac41324949b134391ef8642d04f9f7b64}\label{classhexagon_game_1_1_player_ac41324949b134391ef8642d04f9f7b64}} 
+\index{hexagonGame::Player@{hexagonGame::Player}!getTipOfArrow@{getTipOfArrow}}
+\index{getTipOfArrow@{getTipOfArrow}!hexagonGame::Player@{hexagonGame::Player}}
+\doxysubsubsection{\texorpdfstring{getTipOfArrow()}{getTipOfArrow()}}
+{\footnotesize\ttfamily const Point2f \& hexagon\+Game\+::\+Player\+::get\+Tip\+Of\+Arrow (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\begin{DoxyReturn}{Returns}
+punta de la flecha del jugador 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classhexagon_game_1_1_player_a8f6b4213d0431518ab2233d8e55d6d1c}\label{classhexagon_game_1_1_player_a8f6b4213d0431518ab2233d8e55d6d1c}} 
+\index{hexagonGame::Player@{hexagonGame::Player}!movePlayer@{movePlayer}}
+\index{movePlayer@{movePlayer}!hexagonGame::Player@{hexagonGame::Player}}
+\doxysubsubsection{\texorpdfstring{movePlayer()}{movePlayer()}}
+{\footnotesize\ttfamily void hexagon\+Game\+::\+Player\+::move\+Player (\begin{DoxyParamCaption}\item[{const Point2f \&}]{pivot,  }\item[{float}]{angle }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+rota alrededor de un punto 
+\begin{DoxyParams}{Parameters}
+{\em pivot} & punto de pivote \\
+\hline
+{\em angle} & angulo en radianes que gira \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classhexagon_game_1_1_player_a1568bf13b7425c2d1465e30a19526680}\label{classhexagon_game_1_1_player_a1568bf13b7425c2d1465e30a19526680}} 
+\index{hexagonGame::Player@{hexagonGame::Player}!render@{render}}
+\index{render@{render}!hexagonGame::Player@{hexagonGame::Player}}
+\doxysubsubsection{\texorpdfstring{render()}{render()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void hexagon\+Game\+::\+Player\+::render (\begin{DoxyParamCaption}\item[{Canvas \&}]{canvas }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+renderiza el jugador y sus componentes(la flechita) y el borde 
+
+Reimplemented from \mbox{\hyperlink{classhexagon_game_1_1_polygon_a4dd57b7644ac6a58e262b9ce47dd1453}{hexagon\+Game\+::\+Polygon}}.
+
+\mbox{\Hypertarget{classhexagon_game_1_1_player_a4ec69921879b1acdb3f2a581faccbd5f}\label{classhexagon_game_1_1_player_a4ec69921879b1acdb3f2a581faccbd5f}} 
+\index{hexagonGame::Player@{hexagonGame::Player}!render@{render}}
+\index{render@{render}!hexagonGame::Player@{hexagonGame::Player}}
+\doxysubsubsection{\texorpdfstring{render()}{render()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void hexagon\+Game\+::\+Player\+::render (\begin{DoxyParamCaption}\item[{Canvas \&}]{canvas,  }\item[{float}]{zoom,  }\item[{Point2f}]{pivot }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+renderiza el jugador y sus componentes(la flechita) y el borde 
+\begin{DoxyParams}{Parameters}
+{\em zoom\+:zoom} & del jugador \\
+\hline
+{\em pivot} & lugar desde donde se hace el zoom \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classhexagon_game_1_1_polygon_a6254fabd77e2592ca0b12008ce4d4430}{hexagon\+Game\+::\+Polygon}}.
+
+\mbox{\Hypertarget{classhexagon_game_1_1_player_a8041890399526a79a59814e25e13693a}\label{classhexagon_game_1_1_player_a8041890399526a79a59814e25e13693a}} 
+\index{hexagonGame::Player@{hexagonGame::Player}!rotateAround@{rotateAround}}
+\index{rotateAround@{rotateAround}!hexagonGame::Player@{hexagonGame::Player}}
+\doxysubsubsection{\texorpdfstring{rotateAround()}{rotateAround()}}
+{\footnotesize\ttfamily void hexagon\+Game\+::\+Player\+::rotate\+Around (\begin{DoxyParamCaption}\item[{const Point2f \&}]{pivot,  }\item[{float}]{angle }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+rota alrededor de un punto 
+\begin{DoxyParams}{Parameters}
+{\em pivot} & punto de pivote \\
+\hline
+{\em angle} & angulo en radianes que gira \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classhexagon_game_1_1_polygon_a246a173c8011fd3c209f7abcff2e0077}{hexagon\+Game\+::\+Polygon}}.
+
+\mbox{\Hypertarget{classhexagon_game_1_1_player_a20d60343a050129477d6c0b70a56e271}\label{classhexagon_game_1_1_player_a20d60343a050129477d6c0b70a56e271}} 
+\index{hexagonGame::Player@{hexagonGame::Player}!set\_color@{set\_color}}
+\index{set\_color@{set\_color}!hexagonGame::Player@{hexagonGame::Player}}
+\doxysubsubsection{\texorpdfstring{set\_color()}{set\_color()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void hexagon\+Game\+::\+Player\+::set\+\_\+color (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structhexagon_game_1_1_color}{Color}}}]{color }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+setea el color del jugador(bordes y flecha) 
+\begin{DoxyParams}{Parameters}
+{\em color} & color a dar \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classhexagon_game_1_1_polygon_a98dfc2aa346ea37c158d2b016885415d}{hexagon\+Game\+::\+Polygon}}.
+
+\mbox{\Hypertarget{classhexagon_game_1_1_player_a61bbc7140ff27c2f58c3d1675974f005}\label{classhexagon_game_1_1_player_a61bbc7140ff27c2f58c3d1675974f005}} 
+\index{hexagonGame::Player@{hexagonGame::Player}!set\_color@{set\_color}}
+\index{set\_color@{set\_color}!hexagonGame::Player@{hexagonGame::Player}}
+\doxysubsubsection{\texorpdfstring{set\_color()}{set\_color()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void hexagon\+Game\+::\+Player\+::set\+\_\+color (\begin{DoxyParamCaption}\item[{const float \&}]{r,  }\item[{const float \&}]{g,  }\item[{const float \&}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+setea el color del jugador(bordes y flecha) 
+\begin{DoxyParams}{Parameters}
+{\em r} & valor de rojo \\
+\hline
+{\em g} & valor de verde \\
+\hline
+{\em b} & valor de azul \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classhexagon_game_1_1_polygon_ad55553cd9057316bd2c120242efc942d}{hexagon\+Game\+::\+Polygon}}.
+
+\mbox{\Hypertarget{classhexagon_game_1_1_player_ad1c118966c9709b4181afc394e674f0d}\label{classhexagon_game_1_1_player_ad1c118966c9709b4181afc394e674f0d}} 
+\index{hexagonGame::Player@{hexagonGame::Player}!setArrowPositionToLastFrame@{setArrowPositionToLastFrame}}
+\index{setArrowPositionToLastFrame@{setArrowPositionToLastFrame}!hexagonGame::Player@{hexagonGame::Player}}
+\doxysubsubsection{\texorpdfstring{setArrowPositionToLastFrame()}{setArrowPositionToLastFrame()}}
+{\footnotesize\ttfamily void hexagon\+Game\+::\+Player\+::set\+Arrow\+Position\+To\+Last\+Frame (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+setea la posicion de la flecha a la que tenía en el ultimo frame \mbox{\Hypertarget{classhexagon_game_1_1_player_a17cd8eca02aeb8dacd59a9a9f119a3ab}\label{classhexagon_game_1_1_player_a17cd8eca02aeb8dacd59a9a9f119a3ab}} 
+\index{hexagonGame::Player@{hexagonGame::Player}!setInnerColor@{setInnerColor}}
+\index{setInnerColor@{setInnerColor}!hexagonGame::Player@{hexagonGame::Player}}
+\doxysubsubsection{\texorpdfstring{setInnerColor()}{setInnerColor()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void hexagon\+Game\+::\+Player\+::set\+Inner\+Color (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structhexagon_game_1_1_color}{Color}}}]{color }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+setea el color de dentro del jugador 
+\begin{DoxyParams}{Parameters}
+{\em color} & color a dar \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classhexagon_game_1_1_player_a845e4abeb37553fa173a070a877f5ddd}\label{classhexagon_game_1_1_player_a845e4abeb37553fa173a070a877f5ddd}} 
+\index{hexagonGame::Player@{hexagonGame::Player}!setInnerColor@{setInnerColor}}
+\index{setInnerColor@{setInnerColor}!hexagonGame::Player@{hexagonGame::Player}}
+\doxysubsubsection{\texorpdfstring{setInnerColor()}{setInnerColor()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void hexagon\+Game\+::\+Player\+::set\+Inner\+Color (\begin{DoxyParamCaption}\item[{const float}]{r,  }\item[{const float}]{g,  }\item[{const float}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+setea el color de dentro del jugador 
+\begin{DoxyParams}{Parameters}
+{\em r} & valor de rojo \\
+\hline
+{\em g} & valor de verde \\
+\hline
+{\em b} & valor de azul \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classhexagon_game_1_1_player_a366549f556e2fbe29fded52448920612}\label{classhexagon_game_1_1_player_a366549f556e2fbe29fded52448920612}} 
+\index{hexagonGame::Player@{hexagonGame::Player}!update@{update}}
+\index{update@{update}!hexagonGame::Player@{hexagonGame::Player}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void hexagon\+Game\+::\+Player\+::update (\begin{DoxyParamCaption}\item[{float}]{delta\+Time }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Se ejecuta cada frame solo cuando es visible. 
+\begin{DoxyParams}{Parameters}
+{\em time} & Fracción de tiempo que se debe avanzar. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classhexagon_game_1_1_polygon_a78b49a107a9f72fb3567c22d420d8abb}{hexagon\+Game\+::\+Polygon}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_player_8h}{Player.\+h}}\end{DoxyCompactItemize}

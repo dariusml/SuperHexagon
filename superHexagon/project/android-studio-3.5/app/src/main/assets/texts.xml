@@ -1,0 +1,258 @@
+<?xml version="1.0"?>
+<scene>
+
+	<sceneParam>
+		<backButtonWidth> 0.08 </backButtonWidth>
+		<backButtonPosition> 0.06,0.88 </backButtonPosition>
+
+		<playerSize> 0.083 </playerSize>
+		<playerBorderSize> 0.013888 </playerBorderSize>
+		<playerSpeed> 9 </playerSpeed>
+
+		<obstacleSpeed> 0.6944 </obstacleSpeed>
+
+		<secondsBetweenDirectionChange> 5.5 </secondsBetweenDirectionChange>
+		<rotationSpeed> 2.5 </rotationSpeed>
+
+		<timeBetwwenColorChange> 1 </timeBetwwenColorChange>
+		<timeOfColor> 3 </timeOfColor>
+		<timeBetweenColorChangeSections> 0.7 </timeBetweenColorChangeSections>
+
+		<playerMaxZoom> 1.15 </playerMaxZoom>
+		<playerMinZoom> 0.9 </playerMinZoom>
+		<beatVelocity> 5 </beatVelocity>
+
+		<deathZoomTime> 0.5 </deathZoomTime>
+		<maxDeathZoom> 4.5 </maxDeathZoom>
+		<resetZoomTime> 0.3 </resetZoomTime>
+	</sceneParam>
+
+
+	<obstaclePattern id="">
+
+		<obstacleSlice time ="1">
+			<obstacle width ="0.069" slot = "0">  </obstacle>
+			<obstacle width ="0.069" slot = "1">  </obstacle>
+			<obstacle width ="0.069" slot = "2">  </obstacle>
+			<obstacle width ="0.069" slot = "3">  </obstacle>
+			<obstacle width ="0.069" slot = "4">  </obstacle>
+		</obstacleSlice>
+
+		<obstacleSlice time ="1">
+			<obstacle width ="0.069" slot = "0">  </obstacle>
+			<obstacle width ="0.069" slot = "1">  </obstacle>
+			<obstacle width ="0.069" slot = "3">  </obstacle>
+			<obstacle width ="0.069" slot = "4">  </obstacle>
+			<obstacle width ="0.069" slot = "5">  </obstacle>
+		</obstacleSlice>
+
+		<obstacleSlice time ="1">
+			<obstacle width ="0.069" slot = "0">  </obstacle>
+			<obstacle width ="0.069" slot = "1">  </obstacle>
+			<obstacle width ="0.069" slot = "2">  </obstacle>
+			<obstacle width ="0.069" slot = "3">  </obstacle>
+			<obstacle width ="0.069" slot = "4">  </obstacle>
+		</obstacleSlice>
+
+		<obstacleSlice time ="1">
+			<obstacle width ="0.069" slot = "0">  </obstacle>
+			<obstacle width ="0.069" slot = "1">  </obstacle>
+			<obstacle width ="0.069" slot = "3">  </obstacle>
+			<obstacle width ="0.069" slot = "4">  </obstacle>
+			<obstacle width ="0.069" slot = "5">  </obstacle>
+		</obstacleSlice>
+
+	</obstaclePattern>
+
+	<obstaclePattern id="">
+
+		<obstacleSlice time ="0.5">
+			<obstacle width ="0.069" slot = "0">  </obstacle>
+			<obstacle width ="0.069" slot = "2">  </obstacle>
+			<obstacle width ="0.069" slot = "4">  </obstacle>
+		</obstacleSlice>
+
+		<obstacleSlice time ="0.5">
+			<obstacle width ="0.069" slot = "1">  </obstacle>
+			<obstacle width ="0.069" slot = "3">  </obstacle>
+			<obstacle width ="0.069" slot = "5">  </obstacle>
+		</obstacleSlice>
+
+		<obstacleSlice time ="0.5">
+			<obstacle width ="0.069" slot = "0">  </obstacle>
+			<obstacle width ="0.069" slot = "2">  </obstacle>
+			<obstacle width ="0.069" slot = "4">  </obstacle>
+		</obstacleSlice>
+
+		<obstacleSlice time ="0.5">
+			<obstacle width ="0.069" slot = "1">  </obstacle>
+			<obstacle width ="0.069" slot = "3">  </obstacle>
+			<obstacle width ="0.069" slot = "5">  </obstacle>
+		</obstacleSlice>
+
+		<obstacleSlice time ="0.5">
+			<obstacle width ="0.069" slot = "0">  </obstacle>
+			<obstacle width ="0.069" slot = "2">  </obstacle>
+			<obstacle width ="0.069" slot = "4">  </obstacle>
+		</obstacleSlice>
+
+		<obstacleSlice time ="0.5">
+			<obstacle width ="0.069" slot = "1">  </obstacle>
+			<obstacle width ="0.069" slot = "3">  </obstacle>
+			<obstacle width ="0.069" slot = "5">  </obstacle>
+		</obstacleSlice>
+
+	</obstaclePattern>
+
+	<obstaclePattern id="">
+
+		<obstacleSlice time ="0.5">
+			<obstacle width ="0.069" slot = "0">  </obstacle>
+			<obstacle width ="0.069" slot = "1">  </obstacle>
+			<obstacle width ="0.069" slot = "2">  </obstacle>
+			<obstacle width ="0.069" slot = "4">  </obstacle>
+		</obstacleSlice>
+
+	</obstaclePattern>
+
+	<obstaclePattern id="">
+
+		<obstacleSlice time ="1">
+			<obstacle width ="0.069" slot = "0">  </obstacle>
+			<obstacle width ="0.069" slot = "1">  </obstacle>
+			<obstacle width ="0.069" slot = "2">  </obstacle>
+			<obstacle width ="0.069" slot = "3">  </obstacle>
+			<obstacle width ="0.069" slot = "4">  </obstacle>
+		</obstacleSlice>
+
+		<obstacleSlice time ="0.6">
+			<obstacle width ="0.1" slot = "0">  </obstacle>
+			<obstacle width ="0.1" slot = "4">  </obstacle>
+			<obstacle width ="0.5" slot = "5">  </obstacle>
+		</obstacleSlice>
+
+		<obstacleSlice time ="0.75">
+			<obstacle width ="0.1" slot = "1">  </obstacle>
+			<obstacle width ="0.1" slot = "2">  </obstacle>
+			<obstacle width ="0.1" slot = "3">  </obstacle>
+		</obstacleSlice>
+
+	</obstaclePattern>
+
+	<obstaclePattern id="">
+
+		<obstacleSlice time ="1">
+			<obstacle width ="0.069" slot = "0">  </obstacle>
+			<obstacle width ="0.138" slot = "1">  </obstacle>
+			<obstacle width ="0.069" slot = "3">  </obstacle>
+			<obstacle width ="0.138" slot = "4">  </obstacle>
+		</obstacleSlice>
+
+		<obstacleSlice time ="0.33333">
+			<obstacle width ="0.069" slot = "5">  </obstacle>
+			<obstacle width ="0.069" slot = "2">  </obstacle>
+		</obstacleSlice>
+
+		<obstacleSlice time ="0.1666">
+			<obstacle width ="0.069" slot = "0">  </obstacle>
+			<obstacle width ="0.069" slot = "3">  </obstacle>
+		</obstacleSlice>
+
+		<obstacleSlice time ="0.1666">
+			<obstacle width ="0.069" slot = "1">  </obstacle>
+			<obstacle width ="0.069" slot = "4">  </obstacle>
+		</obstacleSlice>
+
+		<obstacleSlice time ="0.1666">
+			<obstacle width ="0.069" slot = "2">  </obstacle>
+			<obstacle width ="0.069" slot = "5">  </obstacle>
+		</obstacleSlice>
+
+		<obstacleSlice time ="0.1666">
+			<obstacle width ="0.069" slot = "0">  </obstacle>
+			<obstacle width ="0.069" slot = "3">  </obstacle>
+		</obstacleSlice>
+
+		<obstacleSlice time ="0.1666">
+			<obstacle width ="0.069" slot = "1">  </obstacle>
+			<obstacle width ="0.069" slot = "4">  </obstacle>
+		</obstacleSlice>
+
+		<obstacleSlice time ="0.1666">
+			<obstacle width ="0.069" slot = "2">  </obstacle>
+			<obstacle width ="0.069" slot = "5">  </obstacle>
+		</obstacleSlice>
+
+	</obstaclePattern>
+
+
+
+	<colorSet id = "greenColor">
+
+		<color type = "darkSection"	> 0.0275,0.2784,0  </color>
+		<color type = "clearSection"> 0.0470,0.3372,0 </color>
+		<color type = "mainColor"	> 0.2471,0.8510,0.054 </color>
+
+	</colorSet>
+
+	<colorSet id = "purpleColor">
+
+		<color type = "darkSection"	> 0.1020,0.0353,0.3451 </color>
+		<color type = "clearSection"> 0.1373,0.0353,0.3961 </color>
+		<color type = "mainColor"	> 0.4549,0.1490,0.9412 </color>
+
+	</colorSet>
+
+	<colorSet id = "orangeColor">
+
+		<color type = "darkSection"	> 0.3529,0.0706,0.0039 </color>
+		<color type = "clearSection"> 0.4196,0.0980,0.0039 </color>
+		<color type = "mainColor"	> 1,0.3294 ,0.0470 </color>
+
+	</colorSet>
+
+	<colorSet id = "blueColor">
+
+		<color type = "darkSection"	> 0,0.2784,0.3255 </color>
+		<color type = "clearSection"> 0,0.3255,0.4040 </color>
+		<color type = "mainColor"	> 0,0.7843,1 </color>
+
+	</colorSet>
+
+	<colorSet id = "violetColor">
+
+		<color type = "darkSection"	> 0.3490,0.0078,0.3137 </color>
+		<color type = "clearSection"> 0.4196,0.0588,0.3647 </color>
+		<color type = "mainColor"	> 0.9333,0.1882,0.8078 </color>
+
+	</colorSet>
+
+	<colorSet id = "yellowColor">
+
+		<color type = "darkSection"	> 0.3294,0.2862,0 </color>
+		<color type = "clearSection"> 0.3922,0.3608,0 </color>
+		<color type = "mainColor"	> 0.9569,0.9255,0.0274 </color>
+
+	</colorSet>
+
+	<colorSet id = "whiteColor">
+
+		<color type = "darkSection"	> 0.5098,0.5098,0.5098 </color>
+		<color type = "clearSection"> 0.6510,0.6510,0.6510 </color>
+		<color type = "mainColor"	> 0.9608,0.9608,0.9608 </color>
+
+	</colorSet>
+
+
+	<text id="?" category ="?">
+		<translation language = "pt-br">
+			cosa
+		</translation>
+		<translation language = "es-es">
+			Si, tio, hostia, tronco
+		</translation>
+		<translation language = "es-us">
+			yes, i'm gonna use my credit card and get int debt just to buy an AK-47
+		</translation>
+	</text>
+</scene>

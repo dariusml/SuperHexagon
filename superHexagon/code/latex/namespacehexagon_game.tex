@@ -1,0 +1,64 @@
+\hypertarget{namespacehexagon_game}{}\doxysection{hexagon\+Game Namespace Reference}
+\label{namespacehexagon_game}\index{hexagonGame@{hexagonGame}}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structhexagon_game_1_1_color}{Color}}
+\begin{DoxyCompactList}\small\item\em clase simple para almacenamiento de color \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classhexagon_game_1_1_color_set}{Color\+Set}}
+\begin{DoxyCompactList}\small\item\em almacena 3 colores, los necesarios para montar el escenario \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classhexagon_game_1_1_intro___scene}{Intro\+\_\+\+Scene}}
+\begin{DoxyCompactList}\small\item\em escena inicial donde el logo de ESNE hace Fade in y luego Fade out e inicia la escena Menu \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classhexagon_game_1_1_menu___scene}{Menu\+\_\+\+Scene}}
+\begin{DoxyCompactList}\small\item\em escena donde tienes opciones como \char`\"{}play\char`\"{}, \char`\"{}help\char`\"{} y \char`\"{}creditos\char`\"{} \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classhexagon_game_1_1_obstacle}{Obstacle}}
+\begin{DoxyCompactList}\small\item\em clase del obstaculo que puede colisionar con el jugador \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structhexagon_game_1_1_obstacle_data}{Obstacle\+Data}}
+\begin{DoxyCompactList}\small\item\em Guarda parametros de un obstaculo. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classhexagon_game_1_1_obstacle_pattern}{Obstacle\+Pattern}}
+\begin{DoxyCompactList}\small\item\em Guarda parametros de posibles patrones de obstaculos definidos por slices. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classhexagon_game_1_1_obstacle_pool}{Obstacle\+Pool}}
+\begin{DoxyCompactList}\small\item\em pool de obstaculos que crea varios objetos obstaculos nada mas ser creada y luego los gestiona \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classhexagon_game_1_1_obstacle_slice}{Obstacle\+Slice}}
+\begin{DoxyCompactList}\small\item\em Guarda parametros del slice definido por su tiempo antes de spawnearse y sus obstaculos. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classhexagon_game_1_1_player}{Player}}
+\begin{DoxyCompactList}\small\item\em clase del jugador \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classhexagon_game_1_1_polygon}{Polygon}}
+\begin{DoxyCompactList}\small\item\em clase padre poligono de la que lo visual en la escena hereda \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classhexagon_game_1_1_sample___scene}{Sample\+\_\+\+Scene}}
+\begin{DoxyCompactList}\small\item\em escena de juego \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{namespacehexagon_game_a6920642f6e258c366540a5261279a0f9}{Type\+Of\+Collision}} \{ \mbox{\hyperlink{namespacehexagon_game_a6920642f6e258c366540a5261279a0f9a87b66bfbb15db11002cb31b9355255ad}{NOCOLLISION}}
+, \mbox{\hyperlink{namespacehexagon_game_a6920642f6e258c366540a5261279a0f9ac41393674294cd057895cc97978882e4}{SIDECOLLISION}}
+, \mbox{\hyperlink{namespacehexagon_game_a6920642f6e258c366540a5261279a0f9a50dec6055d3c77a07416b5e5fcca1682}{FRONTCOLLISION}}
+ \}
+\begin{DoxyCompactList}\small\item\em tipo de colision \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Enumeration Type Documentation}
+\mbox{\Hypertarget{namespacehexagon_game_a6920642f6e258c366540a5261279a0f9}\label{namespacehexagon_game_a6920642f6e258c366540a5261279a0f9}} 
+\index{hexagonGame@{hexagonGame}!TypeOfCollision@{TypeOfCollision}}
+\index{TypeOfCollision@{TypeOfCollision}!hexagonGame@{hexagonGame}}
+\doxysubsubsection{\texorpdfstring{TypeOfCollision}{TypeOfCollision}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{namespacehexagon_game_a6920642f6e258c366540a5261279a0f9}{hexagon\+Game\+::\+Type\+Of\+Collision}}}
+
+
+
+tipo de colision 
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{NOCOLLISION@{NOCOLLISION}!hexagonGame@{hexagonGame}}\index{hexagonGame@{hexagonGame}!NOCOLLISION@{NOCOLLISION}}}\mbox{\Hypertarget{namespacehexagon_game_a6920642f6e258c366540a5261279a0f9a87b66bfbb15db11002cb31b9355255ad}\label{namespacehexagon_game_a6920642f6e258c366540a5261279a0f9a87b66bfbb15db11002cb31b9355255ad}} 
+NOCOLLISION&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{SIDECOLLISION@{SIDECOLLISION}!hexagonGame@{hexagonGame}}\index{hexagonGame@{hexagonGame}!SIDECOLLISION@{SIDECOLLISION}}}\mbox{\Hypertarget{namespacehexagon_game_a6920642f6e258c366540a5261279a0f9ac41393674294cd057895cc97978882e4}\label{namespacehexagon_game_a6920642f6e258c366540a5261279a0f9ac41393674294cd057895cc97978882e4}} 
+SIDECOLLISION&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{FRONTCOLLISION@{FRONTCOLLISION}!hexagonGame@{hexagonGame}}\index{hexagonGame@{hexagonGame}!FRONTCOLLISION@{FRONTCOLLISION}}}\mbox{\Hypertarget{namespacehexagon_game_a6920642f6e258c366540a5261279a0f9a50dec6055d3c77a07416b5e5fcca1682}\label{namespacehexagon_game_a6920642f6e258c366540a5261279a0f9a50dec6055d3c77a07416b5e5fcca1682}} 
+FRONTCOLLISION&\\
+\hline
+
+\end{DoxyEnumFields}

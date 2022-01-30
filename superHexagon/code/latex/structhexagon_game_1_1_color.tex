@@ -1,0 +1,133 @@
+\hypertarget{structhexagon_game_1_1_color}{}\doxysection{hexagon\+Game\+::Color Struct Reference}
+\label{structhexagon_game_1_1_color}\index{hexagonGame::Color@{hexagonGame::Color}}
+
+
+clase simple para almacenamiento de color  
+
+
+
+
+{\ttfamily \#include $<$Color.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{structhexagon_game_1_1_color_acd1ae4ec49f4673eac523ad894f1b50e}{Color}} (float r, float g, float b)
+\begin{DoxyCompactList}\small\item\em constructor de colores siendo 0 el minimo y 1 el maximo valor \end{DoxyCompactList}\item 
+\mbox{\hyperlink{structhexagon_game_1_1_color_a65559f2589dce29755ba0395d973a873}{Color}} ()
+\begin{DoxyCompactList}\small\item\em por defecto el color blanco \end{DoxyCompactList}\item 
+const float \& \mbox{\hyperlink{structhexagon_game_1_1_color_ab6a86aa3e0620aad1a4e745714945ef5}{red}} () const
+\item 
+const float \& \mbox{\hyperlink{structhexagon_game_1_1_color_addeef257e7f04a1cc3f464bbb07506bd}{green}} () const
+\item 
+const float \& \mbox{\hyperlink{structhexagon_game_1_1_color_aebc28abd83b5dffd9459f34982e8753c}{blue}} () const
+\item 
+\mbox{\hyperlink{structhexagon_game_1_1_color}{Color}} \& \mbox{\hyperlink{structhexagon_game_1_1_color_a9fdd009c899bb5cace84522fa28c3bd8}{operator=}} (const \mbox{\hyperlink{structhexagon_game_1_1_color}{Color}} \&other)
+\begin{DoxyCompactList}\small\item\em iguala los valores de un color a este \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{structhexagon_game_1_1_color}{Color}} \mbox{\hyperlink{structhexagon_game_1_1_color_a7e4605f28fe2cff11b9c70e36ec75c09}{lerp}} (const \mbox{\hyperlink{structhexagon_game_1_1_color}{Color}} \&color1, const \mbox{\hyperlink{structhexagon_game_1_1_color}{Color}} \&color2, const float proportion)
+\begin{DoxyCompactList}\small\item\em devuelve un color interpolado entre color1 y color2 \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+clase simple para almacenamiento de color 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{structhexagon_game_1_1_color_acd1ae4ec49f4673eac523ad894f1b50e}\label{structhexagon_game_1_1_color_acd1ae4ec49f4673eac523ad894f1b50e}} 
+\index{hexagonGame::Color@{hexagonGame::Color}!Color@{Color}}
+\index{Color@{Color}!hexagonGame::Color@{hexagonGame::Color}}
+\doxysubsubsection{\texorpdfstring{Color()}{Color()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily hexagon\+Game\+::\+Color\+::\+Color (\begin{DoxyParamCaption}\item[{float}]{r,  }\item[{float}]{g,  }\item[{float}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+constructor de colores siendo 0 el minimo y 1 el maximo valor 
+
+
+\begin{DoxyParams}{Parameters}
+{\em r} & valor de rojo \\
+\hline
+{\em g} & valor de verde \\
+\hline
+{\em b} & valor de azul \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{structhexagon_game_1_1_color_a65559f2589dce29755ba0395d973a873}\label{structhexagon_game_1_1_color_a65559f2589dce29755ba0395d973a873}} 
+\index{hexagonGame::Color@{hexagonGame::Color}!Color@{Color}}
+\index{Color@{Color}!hexagonGame::Color@{hexagonGame::Color}}
+\doxysubsubsection{\texorpdfstring{Color()}{Color()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily hexagon\+Game\+::\+Color\+::\+Color (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+por defecto el color blanco 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{structhexagon_game_1_1_color_aebc28abd83b5dffd9459f34982e8753c}\label{structhexagon_game_1_1_color_aebc28abd83b5dffd9459f34982e8753c}} 
+\index{hexagonGame::Color@{hexagonGame::Color}!blue@{blue}}
+\index{blue@{blue}!hexagonGame::Color@{hexagonGame::Color}}
+\doxysubsubsection{\texorpdfstring{blue()}{blue()}}
+{\footnotesize\ttfamily const float \& hexagon\+Game\+::\+Color\+::blue (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\begin{DoxyReturn}{Returns}
+devuelve el valor de color del azul 
+\end{DoxyReturn}
+\mbox{\Hypertarget{structhexagon_game_1_1_color_addeef257e7f04a1cc3f464bbb07506bd}\label{structhexagon_game_1_1_color_addeef257e7f04a1cc3f464bbb07506bd}} 
+\index{hexagonGame::Color@{hexagonGame::Color}!green@{green}}
+\index{green@{green}!hexagonGame::Color@{hexagonGame::Color}}
+\doxysubsubsection{\texorpdfstring{green()}{green()}}
+{\footnotesize\ttfamily const float \& hexagon\+Game\+::\+Color\+::green (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\begin{DoxyReturn}{Returns}
+devuelve el valor de color del verde 
+\end{DoxyReturn}
+\mbox{\Hypertarget{structhexagon_game_1_1_color_a7e4605f28fe2cff11b9c70e36ec75c09}\label{structhexagon_game_1_1_color_a7e4605f28fe2cff11b9c70e36ec75c09}} 
+\index{hexagonGame::Color@{hexagonGame::Color}!lerp@{lerp}}
+\index{lerp@{lerp}!hexagonGame::Color@{hexagonGame::Color}}
+\doxysubsubsection{\texorpdfstring{lerp()}{lerp()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{structhexagon_game_1_1_color}{Color}} hexagon\+Game\+::\+Color\+::lerp (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structhexagon_game_1_1_color}{Color}} \&}]{color1,  }\item[{const \mbox{\hyperlink{structhexagon_game_1_1_color}{Color}} \&}]{color2,  }\item[{const float}]{proportion }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+devuelve un color interpolado entre color1 y color2 
+
+
+\begin{DoxyParams}{Parameters}
+{\em color1} & el color base \\
+\hline
+{\em color2} & el color al que intenta acercarse \\
+\hline
+{\em proportion} & en caso de ser \char`\"{}0\char`\"{}, devuelve color1 y en caso de \char`\"{}1\char`\"{} devuelve color 2, valores intermedios devuelven colores intermedios \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+color interpolado entre color1 y color 2 dependiendo de la proporcion 
+\end{DoxyReturn}
+\mbox{\Hypertarget{structhexagon_game_1_1_color_a9fdd009c899bb5cace84522fa28c3bd8}\label{structhexagon_game_1_1_color_a9fdd009c899bb5cace84522fa28c3bd8}} 
+\index{hexagonGame::Color@{hexagonGame::Color}!operator=@{operator=}}
+\index{operator=@{operator=}!hexagonGame::Color@{hexagonGame::Color}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structhexagon_game_1_1_color}{Color}} \& hexagon\+Game\+::\+Color\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structhexagon_game_1_1_color}{Color}} \&}]{other }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+iguala los valores de un color a este 
+
+\mbox{\Hypertarget{structhexagon_game_1_1_color_ab6a86aa3e0620aad1a4e745714945ef5}\label{structhexagon_game_1_1_color_ab6a86aa3e0620aad1a4e745714945ef5}} 
+\index{hexagonGame::Color@{hexagonGame::Color}!red@{red}}
+\index{red@{red}!hexagonGame::Color@{hexagonGame::Color}}
+\doxysubsubsection{\texorpdfstring{red()}{red()}}
+{\footnotesize\ttfamily const float \& hexagon\+Game\+::\+Color\+::red (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\begin{DoxyReturn}{Returns}
+devuelve el valor de color del rojo 
+\end{DoxyReturn}
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_color_8h}{Color.\+h}}\end{DoxyCompactItemize}

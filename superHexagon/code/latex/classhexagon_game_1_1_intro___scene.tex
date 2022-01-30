@@ -1,0 +1,93 @@
+\hypertarget{classhexagon_game_1_1_intro___scene}{}\doxysection{hexagon\+Game\+::Intro\+\_\+\+Scene Class Reference}
+\label{classhexagon_game_1_1_intro___scene}\index{hexagonGame::Intro\_Scene@{hexagonGame::Intro\_Scene}}
+
+
+escena inicial donde el logo de ESNE hace Fade in y luego Fade out e inicia la escena Menu  
+
+
+
+
+{\ttfamily \#include $<$Intro\+\_\+\+Scene.\+hpp$>$}
+
+Inheritance diagram for hexagon\+Game\+::Intro\+\_\+\+Scene\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classhexagon_game_1_1_intro___scene}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classhexagon_game_1_1_intro___scene_a1ac03c9ac649a2fc9ab005fef3ece29f}{Intro\+\_\+\+Scene}} ()
+\item 
+basics\+::\+Size2u \mbox{\hyperlink{classhexagon_game_1_1_intro___scene_a5858a151bc5ce4ade3095eae7213fa8e}{get\+\_\+view\+\_\+size}} () override
+\item 
+bool \mbox{\hyperlink{classhexagon_game_1_1_intro___scene_abfe3afb2359e4e0cba70399451303875}{initialize}} () override
+\item 
+void \mbox{\hyperlink{classhexagon_game_1_1_intro___scene_acf9a12ff246782f202558639e1dae317}{suspend}} () override
+\item 
+void \mbox{\hyperlink{classhexagon_game_1_1_intro___scene_a0d4d4832185b582c2719a74d423a6d11}{resume}} () override
+\item 
+void \mbox{\hyperlink{classhexagon_game_1_1_intro___scene_a93799a2e6f1d57689720d728d71f8ed9}{update}} (float time) override
+\item 
+void \mbox{\hyperlink{classhexagon_game_1_1_intro___scene_a9da8f3b2efad5c11a04827e01c2c7bf8}{render}} (Graphics\+\_\+\+Context\+::\+Accessor \&context) override
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+escena inicial donde el logo de ESNE hace Fade in y luego Fade out e inicia la escena Menu 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classhexagon_game_1_1_intro___scene_a1ac03c9ac649a2fc9ab005fef3ece29f}\label{classhexagon_game_1_1_intro___scene_a1ac03c9ac649a2fc9ab005fef3ece29f}} 
+\index{hexagonGame::Intro\_Scene@{hexagonGame::Intro\_Scene}!Intro\_Scene@{Intro\_Scene}}
+\index{Intro\_Scene@{Intro\_Scene}!hexagonGame::Intro\_Scene@{hexagonGame::Intro\_Scene}}
+\doxysubsubsection{\texorpdfstring{Intro\_Scene()}{Intro\_Scene()}}
+{\footnotesize\ttfamily hexagon\+Game\+::\+Intro\+\_\+\+Scene\+::\+Intro\+\_\+\+Scene (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+default 1280 $\ast$ 720 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classhexagon_game_1_1_intro___scene_a5858a151bc5ce4ade3095eae7213fa8e}\label{classhexagon_game_1_1_intro___scene_a5858a151bc5ce4ade3095eae7213fa8e}} 
+\index{hexagonGame::Intro\_Scene@{hexagonGame::Intro\_Scene}!get\_view\_size@{get\_view\_size}}
+\index{get\_view\_size@{get\_view\_size}!hexagonGame::Intro\_Scene@{hexagonGame::Intro\_Scene}}
+\doxysubsubsection{\texorpdfstring{get\_view\_size()}{get\_view\_size()}}
+{\footnotesize\ttfamily basics\+::\+Size2u hexagon\+Game\+::\+Intro\+\_\+\+Scene\+::get\+\_\+view\+\_\+size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}}
+
+Este metodo lo llama Director para conocer la resolucion virtual con la que esta¡ trabajando la escena. \begin{DoxyReturn}{Returns}
+Tamanio en coordenadas virtuales que esta usando la escena. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classhexagon_game_1_1_intro___scene_abfe3afb2359e4e0cba70399451303875}\label{classhexagon_game_1_1_intro___scene_abfe3afb2359e4e0cba70399451303875}} 
+\index{hexagonGame::Intro\_Scene@{hexagonGame::Intro\_Scene}!initialize@{initialize}}
+\index{initialize@{initialize}!hexagonGame::Intro\_Scene@{hexagonGame::Intro\_Scene}}
+\doxysubsubsection{\texorpdfstring{initialize()}{initialize()}}
+{\footnotesize\ttfamily bool hexagon\+Game\+::\+Intro\+\_\+\+Scene\+::initialize (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}}
+
+Aqui se inicializan los atributos que deben restablecerse cada vez que se inicia la escena. \mbox{\Hypertarget{classhexagon_game_1_1_intro___scene_a9da8f3b2efad5c11a04827e01c2c7bf8}\label{classhexagon_game_1_1_intro___scene_a9da8f3b2efad5c11a04827e01c2c7bf8}} 
+\index{hexagonGame::Intro\_Scene@{hexagonGame::Intro\_Scene}!render@{render}}
+\index{render@{render}!hexagonGame::Intro\_Scene@{hexagonGame::Intro\_Scene}}
+\doxysubsubsection{\texorpdfstring{render()}{render()}}
+{\footnotesize\ttfamily void hexagon\+Game\+::\+Intro\+\_\+\+Scene\+::render (\begin{DoxyParamCaption}\item[{Graphics\+\_\+\+Context\+::\+Accessor \&}]{context }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}}
+
+Este metodo se invoca automaticamente una vez por fotograma para que la escena dibuje su contenido. \mbox{\Hypertarget{classhexagon_game_1_1_intro___scene_a0d4d4832185b582c2719a74d423a6d11}\label{classhexagon_game_1_1_intro___scene_a0d4d4832185b582c2719a74d423a6d11}} 
+\index{hexagonGame::Intro\_Scene@{hexagonGame::Intro\_Scene}!resume@{resume}}
+\index{resume@{resume}!hexagonGame::Intro\_Scene@{hexagonGame::Intro\_Scene}}
+\doxysubsubsection{\texorpdfstring{resume()}{resume()}}
+{\footnotesize\ttfamily void hexagon\+Game\+::\+Intro\+\_\+\+Scene\+::resume (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}}
+
+Este metodo lo invoca Director automaticamente cuando el juego pasa a primer plano. \mbox{\Hypertarget{classhexagon_game_1_1_intro___scene_acf9a12ff246782f202558639e1dae317}\label{classhexagon_game_1_1_intro___scene_acf9a12ff246782f202558639e1dae317}} 
+\index{hexagonGame::Intro\_Scene@{hexagonGame::Intro\_Scene}!suspend@{suspend}}
+\index{suspend@{suspend}!hexagonGame::Intro\_Scene@{hexagonGame::Intro\_Scene}}
+\doxysubsubsection{\texorpdfstring{suspend()}{suspend()}}
+{\footnotesize\ttfamily void hexagon\+Game\+::\+Intro\+\_\+\+Scene\+::suspend (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}}
+
+Este metodo lo invoca Director automaticamente cuando el juego pasa a segundo plano. \mbox{\Hypertarget{classhexagon_game_1_1_intro___scene_a93799a2e6f1d57689720d728d71f8ed9}\label{classhexagon_game_1_1_intro___scene_a93799a2e6f1d57689720d728d71f8ed9}} 
+\index{hexagonGame::Intro\_Scene@{hexagonGame::Intro\_Scene}!update@{update}}
+\index{update@{update}!hexagonGame::Intro\_Scene@{hexagonGame::Intro\_Scene}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void hexagon\+Game\+::\+Intro\+\_\+\+Scene\+::update (\begin{DoxyParamCaption}\item[{float}]{time }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}}
+
+Este metodo se invoca automaticamente una vez por fotograma para que la escena actualize su estado. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_intro___scene_8hpp}{Intro\+\_\+\+Scene.\+hpp}}\end{DoxyCompactItemize}

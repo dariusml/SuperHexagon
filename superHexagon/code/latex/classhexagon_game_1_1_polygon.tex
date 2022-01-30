@@ -1,0 +1,332 @@
+\hypertarget{classhexagon_game_1_1_polygon}{}\doxysection{hexagon\+Game\+::Polygon Class Reference}
+\label{classhexagon_game_1_1_polygon}\index{hexagonGame::Polygon@{hexagonGame::Polygon}}
+
+
+clase padre poligono de la que lo visual en la escena hereda  
+
+
+
+
+{\ttfamily \#include $<$Polygon.\+hpp$>$}
+
+Inheritance diagram for hexagon\+Game\+::Polygon\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classhexagon_game_1_1_polygon}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classhexagon_game_1_1_polygon_a7cdf6054dd651e8e3e7f5e85a6e01460}{Polygon}} (const size\+\_\+t \mbox{\hyperlink{classhexagon_game_1_1_polygon_a0bb3b0c6c2aa016e39b7755659a3750c}{n\+Vertices}})
+\item 
+\mbox{\hyperlink{classhexagon_game_1_1_polygon_a6c13cc2be6009606f4fa758892b61fa9}{Polygon}} ()
+\item 
+\mbox{\hyperlink{classhexagon_game_1_1_polygon_ae803161c9724a252100de26249b588e8}{$\sim$\+Polygon}} ()=default
+\item 
+const Point2f \& \mbox{\hyperlink{classhexagon_game_1_1_polygon_a98a79d8b0f31195bf6c4c25927520146}{get\+\_\+vertice\+\_\+position}} (const size\+\_\+t \&vertice) const
+\item 
+bool \mbox{\hyperlink{classhexagon_game_1_1_polygon_ac8814dbe803747dd5fa0245ecaecb546}{is\+\_\+not\+\_\+visible}} () const
+\item 
+void \mbox{\hyperlink{classhexagon_game_1_1_polygon_a39487ff66f9484caad8dcf8c7f59ce44}{set\+\_\+vertice\+\_\+position}} (const size\+\_\+t \&n\+Vertice, const Point2f \&new\+\_\+position)
+\item 
+virtual void \mbox{\hyperlink{classhexagon_game_1_1_polygon_ad55553cd9057316bd2c120242efc942d}{set\+\_\+color}} (const float \&r, const float \&g, const float \&b)
+\item 
+virtual void \mbox{\hyperlink{classhexagon_game_1_1_polygon_a98dfc2aa346ea37c158d2b016885415d}{set\+\_\+color}} (\mbox{\hyperlink{structhexagon_game_1_1_color}{Color}} \mbox{\hyperlink{classhexagon_game_1_1_polygon_a25bf3bfc20ae936d7d93945917cb377b}{color}})
+\item 
+void \mbox{\hyperlink{classhexagon_game_1_1_polygon_ac58ca69fa7da0a713f8dceb71c6e198f}{hide}} ()
+\item 
+void \mbox{\hyperlink{classhexagon_game_1_1_polygon_a20beb828c7025b5fd55f887ed923764d}{show}} ()
+\item 
+virtual void \mbox{\hyperlink{classhexagon_game_1_1_polygon_a78b49a107a9f72fb3567c22d420d8abb}{update}} (float delta\+Time)
+\item 
+virtual void \mbox{\hyperlink{classhexagon_game_1_1_polygon_a4dd57b7644ac6a58e262b9ce47dd1453}{render}} (Canvas \&canvas)
+\item 
+virtual void \mbox{\hyperlink{classhexagon_game_1_1_polygon_a6254fabd77e2592ca0b12008ce4d4430}{render}} (Canvas \&canvas, float zoom, Point2f pivot)
+\item 
+virtual void \mbox{\hyperlink{classhexagon_game_1_1_polygon_a246a173c8011fd3c209f7abcff2e0077}{rotate\+Around}} (const Point2f \&pivot, float angle)
+\item 
+void \mbox{\hyperlink{classhexagon_game_1_1_polygon_a7b08ac36f689e3a37d320c1f89130f6d}{convert\+To\+Hexagon}} (float length, const Point2f position)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classhexagon_game_1_1_polygon}{Polygon}} \mbox{\hyperlink{classhexagon_game_1_1_polygon_a47b028fafd9a9f3babb05fa34ba48556}{create\+Regular\+Hexagon}} (float length, const Point2f position)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classhexagon_game_1_1_polygon_aad68f19e0c19c47037af193540aa4955}{rotate\+Point}} (const Point2f \&pivot, float \&angle, Point2f \&point)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+uint \mbox{\hyperlink{classhexagon_game_1_1_polygon_a0bb3b0c6c2aa016e39b7755659a3750c}{n\+Vertices}}
+\item 
+vector$<$ Point2f $>$ \mbox{\hyperlink{classhexagon_game_1_1_polygon_a7fef77734628f477fc0128b42ddf12c5}{vertices}}
+\begin{DoxyCompactList}\small\item\em Vertices que definen el poligono. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classhexagon_game_1_1_polygon_a25bf3bfc20ae936d7d93945917cb377b}{color}} \mbox{[}3\mbox{]}
+\item 
+bool \mbox{\hyperlink{classhexagon_game_1_1_polygon_af616f12794b04640a6e6d809cb26ae3d}{visible}} = true
+\begin{DoxyCompactList}\small\item\em Indica si el sprite se debe actualizar y dibujar o no. Por defecto es true. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+clase padre poligono de la que lo visual en la escena hereda 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classhexagon_game_1_1_polygon_a7cdf6054dd651e8e3e7f5e85a6e01460}\label{classhexagon_game_1_1_polygon_a7cdf6054dd651e8e3e7f5e85a6e01460}} 
+\index{hexagonGame::Polygon@{hexagonGame::Polygon}!Polygon@{Polygon}}
+\index{Polygon@{Polygon}!hexagonGame::Polygon@{hexagonGame::Polygon}}
+\doxysubsubsection{\texorpdfstring{Polygon()}{Polygon()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily hexagon\+Game\+::\+Polygon\+::\+Polygon (\begin{DoxyParamCaption}\item[{const size\+\_\+t}]{n\+Vertices }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+contructor 
+\begin{DoxyParams}{Parameters}
+{\em numero} & de vertices del poligono \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classhexagon_game_1_1_polygon_a6c13cc2be6009606f4fa758892b61fa9}\label{classhexagon_game_1_1_polygon_a6c13cc2be6009606f4fa758892b61fa9}} 
+\index{hexagonGame::Polygon@{hexagonGame::Polygon}!Polygon@{Polygon}}
+\index{Polygon@{Polygon}!hexagonGame::Polygon@{hexagonGame::Polygon}}
+\doxysubsubsection{\texorpdfstring{Polygon()}{Polygon()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily hexagon\+Game\+::\+Polygon\+::\+Polygon (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+contructor por defecto con 3 vertices \mbox{\Hypertarget{classhexagon_game_1_1_polygon_ae803161c9724a252100de26249b588e8}\label{classhexagon_game_1_1_polygon_ae803161c9724a252100de26249b588e8}} 
+\index{hexagonGame::Polygon@{hexagonGame::Polygon}!````~Polygon@{$\sim$Polygon}}
+\index{````~Polygon@{$\sim$Polygon}!hexagonGame::Polygon@{hexagonGame::Polygon}}
+\doxysubsubsection{\texorpdfstring{$\sim$Polygon()}{~Polygon()}}
+{\footnotesize\ttfamily hexagon\+Game\+::\+Polygon\+::$\sim$\+Polygon (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classhexagon_game_1_1_polygon_a7b08ac36f689e3a37d320c1f89130f6d}\label{classhexagon_game_1_1_polygon_a7b08ac36f689e3a37d320c1f89130f6d}} 
+\index{hexagonGame::Polygon@{hexagonGame::Polygon}!convertToHexagon@{convertToHexagon}}
+\index{convertToHexagon@{convertToHexagon}!hexagonGame::Polygon@{hexagonGame::Polygon}}
+\doxysubsubsection{\texorpdfstring{convertToHexagon()}{convertToHexagon()}}
+{\footnotesize\ttfamily void hexagon\+Game\+::\+Polygon\+::convert\+To\+Hexagon (\begin{DoxyParamCaption}\item[{float}]{length,  }\item[{const Point2f}]{position }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+convierte poligono a hexagono 
+\begin{DoxyParams}{Parameters}
+{\em length} & distancia del centro a sus vertices \\
+\hline
+{\em position} & posicion del centro del hexagono \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Polygono que es un hexagono regular 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classhexagon_game_1_1_polygon_a47b028fafd9a9f3babb05fa34ba48556}\label{classhexagon_game_1_1_polygon_a47b028fafd9a9f3babb05fa34ba48556}} 
+\index{hexagonGame::Polygon@{hexagonGame::Polygon}!createRegularHexagon@{createRegularHexagon}}
+\index{createRegularHexagon@{createRegularHexagon}!hexagonGame::Polygon@{hexagonGame::Polygon}}
+\doxysubsubsection{\texorpdfstring{createRegularHexagon()}{createRegularHexagon()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{classhexagon_game_1_1_polygon}{Polygon}} hexagon\+Game\+::\+Polygon\+::create\+Regular\+Hexagon (\begin{DoxyParamCaption}\item[{float}]{length,  }\item[{const Point2f}]{position }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+crea un hexagono reguloar 
+\begin{DoxyParams}{Parameters}
+{\em length} & distancia del centro a sus vertices \\
+\hline
+{\em position} & posicion del centro del hexagono \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Polygono que es un hexagono regular 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classhexagon_game_1_1_polygon_a98a79d8b0f31195bf6c4c25927520146}\label{classhexagon_game_1_1_polygon_a98a79d8b0f31195bf6c4c25927520146}} 
+\index{hexagonGame::Polygon@{hexagonGame::Polygon}!get\_vertice\_position@{get\_vertice\_position}}
+\index{get\_vertice\_position@{get\_vertice\_position}!hexagonGame::Polygon@{hexagonGame::Polygon}}
+\doxysubsubsection{\texorpdfstring{get\_vertice\_position()}{get\_vertice\_position()}}
+{\footnotesize\ttfamily const Point2f \& hexagon\+Game\+::\+Polygon\+::get\+\_\+vertice\+\_\+position (\begin{DoxyParamCaption}\item[{const size\+\_\+t \&}]{vertice }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+consigue posicion de vertice seleccionado 
+\begin{DoxyParams}{Parameters}
+{\em vertice} & index del vertice \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+posicion de vertice seleccionado 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classhexagon_game_1_1_polygon_ac58ca69fa7da0a713f8dceb71c6e198f}\label{classhexagon_game_1_1_polygon_ac58ca69fa7da0a713f8dceb71c6e198f}} 
+\index{hexagonGame::Polygon@{hexagonGame::Polygon}!hide@{hide}}
+\index{hide@{hide}!hexagonGame::Polygon@{hexagonGame::Polygon}}
+\doxysubsubsection{\texorpdfstring{hide()}{hide()}}
+{\footnotesize\ttfamily void hexagon\+Game\+::\+Polygon\+::hide (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Hace que el sprite no se actualice ni se dibuje. \mbox{\Hypertarget{classhexagon_game_1_1_polygon_ac8814dbe803747dd5fa0245ecaecb546}\label{classhexagon_game_1_1_polygon_ac8814dbe803747dd5fa0245ecaecb546}} 
+\index{hexagonGame::Polygon@{hexagonGame::Polygon}!is\_not\_visible@{is\_not\_visible}}
+\index{is\_not\_visible@{is\_not\_visible}!hexagonGame::Polygon@{hexagonGame::Polygon}}
+\doxysubsubsection{\texorpdfstring{is\_not\_visible()}{is\_not\_visible()}}
+{\footnotesize\ttfamily bool hexagon\+Game\+::\+Polygon\+::is\+\_\+not\+\_\+visible (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\begin{DoxyReturn}{Returns}
+si es visible o no 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classhexagon_game_1_1_polygon_a4dd57b7644ac6a58e262b9ce47dd1453}\label{classhexagon_game_1_1_polygon_a4dd57b7644ac6a58e262b9ce47dd1453}} 
+\index{hexagonGame::Polygon@{hexagonGame::Polygon}!render@{render}}
+\index{render@{render}!hexagonGame::Polygon@{hexagonGame::Polygon}}
+\doxysubsubsection{\texorpdfstring{render()}{render()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily virtual void hexagon\+Game\+::\+Polygon\+::render (\begin{DoxyParamCaption}\item[{Canvas \&}]{canvas }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+Dibuja el poligono a base de dibujar triangulos, pero solo cuando es visible. 
+\begin{DoxyParams}{Parameters}
+{\em canvas} & Referencia al Canvas que se debe usar para dibujar la imagen. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \mbox{\hyperlink{classhexagon_game_1_1_player_a1568bf13b7425c2d1465e30a19526680}{hexagon\+Game\+::\+Player}}.
+
+\mbox{\Hypertarget{classhexagon_game_1_1_polygon_a6254fabd77e2592ca0b12008ce4d4430}\label{classhexagon_game_1_1_polygon_a6254fabd77e2592ca0b12008ce4d4430}} 
+\index{hexagonGame::Polygon@{hexagonGame::Polygon}!render@{render}}
+\index{render@{render}!hexagonGame::Polygon@{hexagonGame::Polygon}}
+\doxysubsubsection{\texorpdfstring{render()}{render()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily virtual void hexagon\+Game\+::\+Polygon\+::render (\begin{DoxyParamCaption}\item[{Canvas \&}]{canvas,  }\item[{float}]{zoom,  }\item[{Point2f}]{pivot }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+Dibuja el poligono a base de dibujar triangulos y fakea zoom , pero solo cuando es visible. 
+\begin{DoxyParams}{Parameters}
+{\em canvas} & Referencia al Canvas que se debe usar para dibujar la imagen. \\
+\hline
+{\em zoom} & es el zoom. \\
+\hline
+{\em pivot} & el punto de refernecia donde se fakea el zoom \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \mbox{\hyperlink{classhexagon_game_1_1_player_a4ec69921879b1acdb3f2a581faccbd5f}{hexagon\+Game\+::\+Player}}.
+
+\mbox{\Hypertarget{classhexagon_game_1_1_polygon_a246a173c8011fd3c209f7abcff2e0077}\label{classhexagon_game_1_1_polygon_a246a173c8011fd3c209f7abcff2e0077}} 
+\index{hexagonGame::Polygon@{hexagonGame::Polygon}!rotateAround@{rotateAround}}
+\index{rotateAround@{rotateAround}!hexagonGame::Polygon@{hexagonGame::Polygon}}
+\doxysubsubsection{\texorpdfstring{rotateAround()}{rotateAround()}}
+{\footnotesize\ttfamily virtual void hexagon\+Game\+::\+Polygon\+::rotate\+Around (\begin{DoxyParamCaption}\item[{const Point2f \&}]{pivot,  }\item[{float}]{angle }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+rota el poligono dependiendo de un pivote y un angulo 
+\begin{DoxyParams}{Parameters}
+{\em pivot} & punto de pivote \\
+\hline
+{\em angle} & angulo que rota en radianes \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \mbox{\hyperlink{classhexagon_game_1_1_player_a8041890399526a79a59814e25e13693a}{hexagon\+Game\+::\+Player}}.
+
+\mbox{\Hypertarget{classhexagon_game_1_1_polygon_aad68f19e0c19c47037af193540aa4955}\label{classhexagon_game_1_1_polygon_aad68f19e0c19c47037af193540aa4955}} 
+\index{hexagonGame::Polygon@{hexagonGame::Polygon}!rotatePoint@{rotatePoint}}
+\index{rotatePoint@{rotatePoint}!hexagonGame::Polygon@{hexagonGame::Polygon}}
+\doxysubsubsection{\texorpdfstring{rotatePoint()}{rotatePoint()}}
+{\footnotesize\ttfamily void hexagon\+Game\+::\+Polygon\+::rotate\+Point (\begin{DoxyParamCaption}\item[{const Point2f \&}]{pivot,  }\item[{float \&}]{angle,  }\item[{Point2f \&}]{point }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classhexagon_game_1_1_polygon_a98dfc2aa346ea37c158d2b016885415d}\label{classhexagon_game_1_1_polygon_a98dfc2aa346ea37c158d2b016885415d}} 
+\index{hexagonGame::Polygon@{hexagonGame::Polygon}!set\_color@{set\_color}}
+\index{set\_color@{set\_color}!hexagonGame::Polygon@{hexagonGame::Polygon}}
+\doxysubsubsection{\texorpdfstring{set\_color()}{set\_color()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily virtual void hexagon\+Game\+::\+Polygon\+::set\+\_\+color (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structhexagon_game_1_1_color}{Color}}}]{color }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+setea el color del poligono 
+\begin{DoxyParams}{Parameters}
+{\em color} & color \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \mbox{\hyperlink{classhexagon_game_1_1_player_a20d60343a050129477d6c0b70a56e271}{hexagon\+Game\+::\+Player}}.
+
+\mbox{\Hypertarget{classhexagon_game_1_1_polygon_ad55553cd9057316bd2c120242efc942d}\label{classhexagon_game_1_1_polygon_ad55553cd9057316bd2c120242efc942d}} 
+\index{hexagonGame::Polygon@{hexagonGame::Polygon}!set\_color@{set\_color}}
+\index{set\_color@{set\_color}!hexagonGame::Polygon@{hexagonGame::Polygon}}
+\doxysubsubsection{\texorpdfstring{set\_color()}{set\_color()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily virtual void hexagon\+Game\+::\+Polygon\+::set\+\_\+color (\begin{DoxyParamCaption}\item[{const float \&}]{r,  }\item[{const float \&}]{g,  }\item[{const float \&}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+setea el color del poligono 
+\begin{DoxyParams}{Parameters}
+{\em r} & valor de rojo \\
+\hline
+{\em g} & valor de verde \\
+\hline
+{\em b} & valor de azul \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \mbox{\hyperlink{classhexagon_game_1_1_player_a61bbc7140ff27c2f58c3d1675974f005}{hexagon\+Game\+::\+Player}}.
+
+\mbox{\Hypertarget{classhexagon_game_1_1_polygon_a39487ff66f9484caad8dcf8c7f59ce44}\label{classhexagon_game_1_1_polygon_a39487ff66f9484caad8dcf8c7f59ce44}} 
+\index{hexagonGame::Polygon@{hexagonGame::Polygon}!set\_vertice\_position@{set\_vertice\_position}}
+\index{set\_vertice\_position@{set\_vertice\_position}!hexagonGame::Polygon@{hexagonGame::Polygon}}
+\doxysubsubsection{\texorpdfstring{set\_vertice\_position()}{set\_vertice\_position()}}
+{\footnotesize\ttfamily void hexagon\+Game\+::\+Polygon\+::set\+\_\+vertice\+\_\+position (\begin{DoxyParamCaption}\item[{const size\+\_\+t \&}]{n\+Vertice,  }\item[{const Point2f \&}]{new\+\_\+position }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+setea posicion de vertice seleccionado 
+\begin{DoxyParams}{Parameters}
+{\em n\+Vertice} & index del vertice a cambiar \\
+\hline
+{\em new\+\_\+position} & nueva posicion del vertice \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+posicion de vertice seleccionadoç 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classhexagon_game_1_1_polygon_a20beb828c7025b5fd55f887ed923764d}\label{classhexagon_game_1_1_polygon_a20beb828c7025b5fd55f887ed923764d}} 
+\index{hexagonGame::Polygon@{hexagonGame::Polygon}!show@{show}}
+\index{show@{show}!hexagonGame::Polygon@{hexagonGame::Polygon}}
+\doxysubsubsection{\texorpdfstring{show()}{show()}}
+{\footnotesize\ttfamily void hexagon\+Game\+::\+Polygon\+::show (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Hace que el sprite no se actualice ni se dibuje. \mbox{\Hypertarget{classhexagon_game_1_1_polygon_a78b49a107a9f72fb3567c22d420d8abb}\label{classhexagon_game_1_1_polygon_a78b49a107a9f72fb3567c22d420d8abb}} 
+\index{hexagonGame::Polygon@{hexagonGame::Polygon}!update@{update}}
+\index{update@{update}!hexagonGame::Polygon@{hexagonGame::Polygon}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily virtual void hexagon\+Game\+::\+Polygon\+::update (\begin{DoxyParamCaption}\item[{float}]{delta\+Time }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+Se ejecuta cada frame solo cuando es visible. 
+\begin{DoxyParams}{Parameters}
+{\em time} & Fracción de tiempo que se debe avanzar. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \mbox{\hyperlink{classhexagon_game_1_1_obstacle_a69dba89856180c3b63dce72818bf2560}{hexagon\+Game\+::\+Obstacle}}, and \mbox{\hyperlink{classhexagon_game_1_1_player_a366549f556e2fbe29fded52448920612}{hexagon\+Game\+::\+Player}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classhexagon_game_1_1_polygon_a25bf3bfc20ae936d7d93945917cb377b}\label{classhexagon_game_1_1_polygon_a25bf3bfc20ae936d7d93945917cb377b}} 
+\index{hexagonGame::Polygon@{hexagonGame::Polygon}!color@{color}}
+\index{color@{color}!hexagonGame::Polygon@{hexagonGame::Polygon}}
+\doxysubsubsection{\texorpdfstring{color}{color}}
+{\footnotesize\ttfamily float hexagon\+Game\+::\+Polygon\+::color\mbox{[}3\mbox{]}\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classhexagon_game_1_1_polygon_a0bb3b0c6c2aa016e39b7755659a3750c}\label{classhexagon_game_1_1_polygon_a0bb3b0c6c2aa016e39b7755659a3750c}} 
+\index{hexagonGame::Polygon@{hexagonGame::Polygon}!nVertices@{nVertices}}
+\index{nVertices@{nVertices}!hexagonGame::Polygon@{hexagonGame::Polygon}}
+\doxysubsubsection{\texorpdfstring{nVertices}{nVertices}}
+{\footnotesize\ttfamily uint hexagon\+Game\+::\+Polygon\+::n\+Vertices\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classhexagon_game_1_1_polygon_a7fef77734628f477fc0128b42ddf12c5}\label{classhexagon_game_1_1_polygon_a7fef77734628f477fc0128b42ddf12c5}} 
+\index{hexagonGame::Polygon@{hexagonGame::Polygon}!vertices@{vertices}}
+\index{vertices@{vertices}!hexagonGame::Polygon@{hexagonGame::Polygon}}
+\doxysubsubsection{\texorpdfstring{vertices}{vertices}}
+{\footnotesize\ttfamily vector$<$Point2f$>$ hexagon\+Game\+::\+Polygon\+::vertices\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Vertices que definen el poligono. 
+
+\mbox{\Hypertarget{classhexagon_game_1_1_polygon_af616f12794b04640a6e6d809cb26ae3d}\label{classhexagon_game_1_1_polygon_af616f12794b04640a6e6d809cb26ae3d}} 
+\index{hexagonGame::Polygon@{hexagonGame::Polygon}!visible@{visible}}
+\index{visible@{visible}!hexagonGame::Polygon@{hexagonGame::Polygon}}
+\doxysubsubsection{\texorpdfstring{visible}{visible}}
+{\footnotesize\ttfamily bool hexagon\+Game\+::\+Polygon\+::visible = true\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Indica si el sprite se debe actualizar y dibujar o no. Por defecto es true. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_polygon_8hpp}{Polygon.\+hpp}}\end{DoxyCompactItemize}
