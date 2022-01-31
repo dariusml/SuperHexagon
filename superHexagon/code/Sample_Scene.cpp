@@ -1,6 +1,6 @@
 /*
  * SAMPLE SCENE
- * Copyright © 2018+ Ángel Rodríguez Ballesteros
+ * Copyright © 2018+ Dario Munoz
  *
  * Distributed under the Boost Software License, version  1.0
  * See documents/LICENSE.TXT or www.boost.org/LICENSE_1_0.txt
@@ -49,6 +49,7 @@ namespace hexagonGame
 
         //variables necesarias iniciales para el beat visual en el que el personaje se hace mas grande y mas pequeño
         resetingLevel = false;
+        timeSinceResetingLevel = 0;
         playerCurrentZoom = 1;
         beat = false; //Si está en proceso de agrandarse
 
